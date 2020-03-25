@@ -1,4 +1,6 @@
-# Personal Portfolio Site
+   <footer>
+     <p>ALL IMAGES AND TEXT &#169; 2020 DIANA NGUYEN</p><br/>
+   </footer># Personal Portfolio Site
 
 ## At a Glance
 
