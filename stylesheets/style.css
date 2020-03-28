@@ -1,4 +1,134 @@
-/* body {
+body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-} */
+  margin: 0 auto;
+  padding: 50px;
+  line-height: 20px;
+}
+
+/*====
+Main
+====*/
+
+main {
+  text-align: center;
+  margin: auto;
+}
+
+header{
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  line-height: 0px;
+  height: 100px;
+
+}
+
+.mainpage {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 0px;
+}
+
+/*=========
+Headings 
+==========*/
+h1, h2, h3, h4, h6 {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+/*=====
+Links
+======*/
+
+a {
+  text-decoration: none;
+  color: #A5C476;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+
+/*=======
+Navigation
+=========*/
+
+nav {
+  line-height: 30px;
+  font-size: 40px;
+}
+
+/*======
+Footer
+======*/
+
+/* formatting for sticky footer */
+html{ 
+  height:100%; 
+}
+
+body{ 
+  min-height:100%; 
+  padding:0; 
+  margin:0; 
+  position:relative; 
+}
+
+body::after{ 
+  content:''; 
+  display: block; 
+  height: 150px; 
+}
+
+footer {
+  /* formatting for sticky footer */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  padding-top: 1px;
+  padding: 2px 1;  
+
+
+  /* styling */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  background: rgba(165, 196, 118, 0.07);
+  color: rgba(115, 149, 62, 0.7);
+ 
+}
