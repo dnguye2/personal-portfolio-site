@@ -11,9 +11,14 @@ Main
 ====*/
 
 main {
-  text-align: center;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 575px 0 575px;
+  line-height: normal;
 }
+
 
 header{
   /* display: flex; */
@@ -42,6 +47,7 @@ h1, h2, h3, h4, h6 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 300;
+  line-height: 0px;
 }
 
 h1 {
